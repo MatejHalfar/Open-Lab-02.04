@@ -4,9 +4,9 @@ namespace Open_Lab_02._04
 {
     class Farm
     {
-        public int GetLegsCount(int chickens, int cows, int pigs)
+        public int GetLegsCount(int slepice, int kravky, int prasatka)
         {
-            throw new NotImplementedException();
+            return slepice * 2 + kravky * 4 + prasatka * 4;
         }
     }
 }
